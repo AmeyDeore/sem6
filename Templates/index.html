@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Plot</title>
+    <style>*
+        {
+            font-size:20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        img
+        {
+            max-width: 20%;
+            max-height: 40%;
+            object-fit: contain;
+        }
+        table
+        {
+            width:50%;
+            border-spacing: 0.25cm;
+        }
+        td
+        {
+            background-color: lightskyblue;
+            color:black;
+            text-align: center;
+            width:20%
+        }
+        :placeholder-shown
+        {
+            text-align: center;
+        }
+        textarea
+        {
+            resize: none;
+            background-color: lightgray;
+        }
+        h1
+        {
+            font-family: 'Times New Roman', Times, serif;
+            padding: 0.5cm;
+            font-size: 50px;
+            background-color: lightskyblue;
+            color:black;
+        }
+        h4
+        {
+            background-color: lightskyblue;
+            color:black;
+        }
+        h3
+        {
+            background-color: lightskyblue;
+            color:black;
+            width: 40%;
+        }
+        body
+        {
+            background-color: black;
+            color:white;
+        }
+        input
+        {
+            background-color: lightgray;
+        }
+        .btn
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 15px;
+            border-color: white;
+            background-color: black;
+            color:lightskyblue;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>USER ANALYSIS</h1>
+    <form action="/result" method="post">
+        <input type="text" name="username" placeholder="Enter Username">
+        <br/><br/>
+        <input type="submit" class="btn" value=" ANALYZE "/>
+    </form>
+</center>
+</body>
+</html>
